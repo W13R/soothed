@@ -1,18 +1,19 @@
 {
   "schemaVersion": 1,
-  "id": "peasymode",
+  "id": "soothed",
   "version": "${version}",
 
-  "name": "Peasy Mode",
-  "description": "Hostile mobs will no longer target you in easy mode. Allows you to get hostile mob drops but keep the difficulty of peaceful mode.",
+  "name": "Soothed",
+  "description": "Makes all Minecraft mobs peaceful.",
   "authors": [
-    "Vesui"
+    "Vesui",
+    "W13R"
   ],
   "contact": {
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/peasymode/icon.png",
+  "license": "GPL-3.0",
+  "icon": "assets/soothed/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -20,7 +21,7 @@
     ]
   },
   "mixins": [
-    "peasymode.mixins.json"
+    "soothed.mixins.json"
   ],
 
   "depends": {

@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.vesui.peasymode.mixin",
+  "package": "net.w13r.soothed.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "ModHostileEntity",

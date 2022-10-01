@@ -1,5 +1,4 @@
-# Soothed Hostiles
+# Soothed
 
-Make hostlile Minecraft mobs neutral. 
-
-Compatible with Minecraft 1.19.2 and Fabric.
+Make all Minecraft mobs peaceful.  
+Compatible with Minecraft 1.19 and Fabric.

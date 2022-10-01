@@ -1,4 +1,4 @@
-package com.vesui.peasymode.mixin;
+package net.w13r.soothed.mixin;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
