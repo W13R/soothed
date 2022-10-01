@@ -1,12 +1,5 @@
-[Curseforge Link](https://www.curseforge.com/minecraft/mc-mods/peaceful-easy-mode)
+# Soothed Hostiles
 
-### Updated For
-- Minecraft 1.19.2
-- Fabric 0.14.9
-- Quilt 0.17.4
+Make hostlile Minecraft mobs neutral. 
 
-### Dependencies
-- None
-
-### Known Conflicts
-- None
+Compatible with Minecraft 1.19.2 and Fabric.
