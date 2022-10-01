@@ -4,7 +4,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.world.Difficulty;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -20,8 +19,8 @@ public abstract class ModLivingEntity extends Entity {
 
     @Inject(method = "canTarget(Lnet/minecraft/entity/LivingEntity;)Z", at = @At("HEAD"), cancellable = true, expect = 1)
     public void onCanTarget(LivingEntity target, CallbackInfoReturnable<Boolean> ci) {
-        // Can't target if target is a player and difficulty is peaceful or easy
-        boolean readable = this.world.getDifficulty() == Difficulty.PEACEFUL || this.world.getDifficulty() == Difficulty.EASY;
+        // Can't target if target is a player
+        boolean readable = true;
         ci.setReturnValue((!(target instanceof PlayerEntity) || !readable) && target.canTakeDamage());
     }
 }
