@@ -1,4 +1,8 @@
 # Soothed
 
-Make all Minecraft mobs peaceful.  
-Compatible with Minecraft 1.19 and Fabric.
+A Minecraft mod that makes all Minecraft mobs peaceful  
+
+## Requirements
+
+- Minecraft 1.19
+- Fabric Loader
